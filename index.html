@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pawlos.jpg" type="image/jpeg" />
+  </head>
+  <body>
+    <header>
+      <h1>Porfolio</h1>
+      <nav>
+        <ul>
+       <li> <a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#projects">Projects</a></li>
+       <li><a href="#contact">Contact</a></li>
+    </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="section">
+        <h1>Welcome to Our Portfolio</h1>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About Us</h2>
+        <div class="team-members">
+          <div class="member">
+            <img src="pawlos.jpg" alt="Pawlo" />
+            <h3>Paolo Villanueva</h3>
+            <p>
+              <br />
+              <strong>Bohol Island State University Balilihan Campus</strong>
+              <br />Bachelor of Science in Information Technology <br />Third
+              Year student
+            </p>
+          </div>
+          <div class="member">
+            <img src="mayorskie.jpg" alt="Mayor" />
+            <h3>Lizelle Orapa</h3>
+            <p>
+              <br />
+              <strong>Bohol Island State University Balilihan Campus</strong>
+              <br />Bachelor of Science in Information Technology <br />Third
+              Year student
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Our Projects</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <img
+              src="project1.png"
+              alt="Project 1"
+              class="project-card-image"
+            />
+            <h3>NSTP Monitoring Android App</h3>
+            <p class="text">
+              A BISU ISMIS based Android App, fetch data from ISMIS with
+              real-time database.
+            </p>
+          </div>
+          <div class="project-card">
+            <img
+              src="project2.jpg"
+              alt="Project 2"
+              class="project-card-image"
+            />
+            <h3>7-Segment Hex Decoder</h3>
+            <p class="text">
+              Electrical wiring is an electrical installation of cabling and
+              associated devices such as switches, distribution boards, sockets,
+              and light fittings in a structure. This project shows the
+              7-segment Hex Decoder wiring in breadboard.
+            </p>
+          </div>
+          <div class="project-card">
+            <img
+              src="project3.jpg"
+              alt="Project 3"
+              class="project-card-image"
+            />
+            <h3>Poster Making</h3>
+            <p class="text">
+              A "digital poster making project" involves creating visually
+              appealing, informative posters using digital design software,
+              intended to convey a specific message or promote an event, idea,
+              or product through a combination of text, images, and graphics,
+              which can be easily shared online or displayed on digital screens.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Name here" required />
+          <input type="email" name="email" placeholder="Email here" required />
+
+          <textarea name="message" placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Assignment Portfolio. All rights reserved.</p>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/profile.php?id=100077294926807"
+            target="_blank"
+          >
+            <img src="facebook_logo.png" alt="Facebook" class="social-icon"/>
+          </a>
+          <a
+            href="https://www.instagram.com/jxracist/?fbclid=IwY2xjawIAbmFleHRuA2FlbQIxMAABHWxp7XgGjCwASS1tqNzvTV5LwjzclQr1DofQpAspbO4GzAyVOrB2W3FPTA_aem_1wNeUF8wsB0uPpmEigvqaQ#"
+            target="_blank"
+          >
+            <img src="instagram_logo.jpg" alt="Instagram" class="social-icon"/>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
